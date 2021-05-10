@@ -16,4 +16,4 @@ jobs:
       - run: yarn install #install les dependences propre au projet
       - run: yarn test --watchAll=false #test
       - run: yarn build # build app
-      - run: ls- la # build app
+      - run: ls -la # build app
